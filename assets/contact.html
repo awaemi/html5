@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+    <header>
+        <img width="150" src="assets/image/logo.jpg" alt="logo">
+        <h1>HTML 5</h1>
+        <h2>Page modele exercices</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Diaporama</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <aside id="main_aside" >
+        <h3>Informations de contact</h3>
+        <ul>
+            <li>Adresse: Thies, Keur Moussa, Polytechnique Thies </li>
+            <li><a href="mailto:aaaaaaaaaa@gmail.com">E.mail: aaaaaaaaaa@gmail.com</a></li>
+            <li><a href="tel:+221770000000">Telephone: 77 000 00 00</a></li>
+        </ul>
+    </aside>
+
+    <section id="section-contact">
+        <h3>Laissez un commentaire</h3>
+        <form action="" method="get" >
+            <div>
+                <label for="mail">E.mail: *</label>
+                <input type="email" name="Email" placeholder="Entrez votre e.mail" required>
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="name">Prenom: *</label>
+                <input type="text" name="Prenom" placeholder="Entrez votre prenom" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="name">Nom: *</label>
+                <input type="text" name="Nom" placeholder="Entrez votre nom" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="name">Message: *</label>
+                <!--<textarea name="" ></textarea>-->
+                <input type="text" name="Message" placeholder="entrez votre message" required>
+                
+            </div>
+
+            <br>
+
+            <div>
+                <label for="password">Mot de passe: *</label>
+                <input type="password" name="Mot de passe" placeholder="entrez votre mot de passe">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="password">Notez nous:</label>
+                <select name="note" >
+                    <option name="1">1 etoile</option> 
+                    <option name="2">2 etoiles</option>
+                    <option name="3">3 etoiles</option>
+                    <option name="4">4 etoiles</option>
+                    <option name="5" selected>5 etoiles</option>
+                </select>
+            </div>
+            
+            <br>
+
+            <div id="submit">
+                <input type="submit" value="Envoyer" class="submit">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright &copysr; AFCI NEWSOFT 2012</p>
+        <p>
+            En vous enregistrant ou en utilisant ce site, 
+            vous acceptez notre contrat d'utilisateur et notre 
+            charte de respect de la vie privée !
+        </p>
+
+    </footer>
+</body>
+</html>
